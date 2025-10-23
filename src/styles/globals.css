@@ -107,3 +107,9 @@ body {
 .font-spaceGrotesk {
   font-family: var(--font-spaceGrotesk);
 }
+
+#root {
+  max-width: 100dvw;
+  max-height: 100dvh;
+  overflow: hidden;
+}
