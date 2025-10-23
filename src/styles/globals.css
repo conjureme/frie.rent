@@ -87,6 +87,9 @@
   --font-montserrat: 'Montserrat', sans-serif;
   --font-workSans: 'Work Sans', sans-serif;
   --font-spaceGrotesk: 'Space Grotesk', sans-serif;
+  max-width: 100dvw;
+  max-height: 100dvh;
+  overflow: hidden;
 }
 
 body {
