@@ -1,8 +1,16 @@
 import Plushie from './components/Plushie';
+import { Particles } from './components/Particles';
 
 function App() {
   return (
     <div className='min-h-screen bg-base-100 font-montserrat'>
+      <Particles
+        className='absolute inset-0'
+        quantity={400}
+        ease={80}
+        color='#4e5a63'
+        refresh
+      />
       <div className='fixed inset-0 w-full h-full'>
         <Plushie gravity={[0, -40, 0]} position={[0, 0, 20]} />
       </div>
