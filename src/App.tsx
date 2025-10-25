@@ -1,5 +1,7 @@
 import Plushie from './components/Plushie';
 import { Particles } from './components/Particles';
+import { ActivityCard } from './components/ActivityCard';
+import { SocialLinks } from './components/SocialLinks';
 
 function App() {
   return (
@@ -13,6 +15,10 @@ function App() {
       />
       <div className='fixed inset-0 w-full h-full'>
         <Plushie gravity={[0, -40, 0]} position={[0, 0, 20]} />
+      </div>
+      <div className='fixed bottom-4 left-4 z-10 flex flex-col gap-3'>
+        <ActivityCard />
+        <SocialLinks />
       </div>
       <div className='fixed bottom-4 right-4 z-10'>
         <a
