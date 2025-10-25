@@ -13,7 +13,7 @@ function App() {
         color='#4e5a63'
         refresh
       />
-      <div className='fixed inset-0 w-full h-full'>
+      <div className='fixed inset-0 w-full h-full z-50'>
         <Plushie gravity={[0, -40, 0]} position={[0, 0, 20]} />
       </div>
       <div className='fixed bottom-4 left-4 z-10 flex flex-col gap-3'>
